@@ -1,0 +1,170 @@
+Warning in <UnknownClass::SetDisplay>: DISPLAY not set, setting it to 24.148.33.103:0.0
+Flush = 0 and N = 1000000 and vec size = 50
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       659186433 bytes  File  Size =  420313931 *
+*        :          : Tree compression factor =   1.46                       *
+******************************************************************************
+*Br    0 :vpx       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112203637 bytes  File Size  =   93679418 *
+*Baskets :     2418 : Basket Size=    8029696 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    1 :vpy       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112203637 bytes  File Size  =   93677063 *
+*Baskets :     2418 : Basket Size=    8029696 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    2 :vpz       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112203637 bytes  File Size  =   91203204 *
+*Baskets :     2418 : Basket Size=    8029696 bytes  Compression=   1.16     *
+*............................................................................*
+*Br    3 :vpt       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  210368869 bytes  File Size  =  103852098 *
+*Baskets :     4464 : Basket Size=   25600000 bytes  Compression=   1.83     *
+*............................................................................*
+*Br    4 :vint      : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112206061 bytes  File Size  =   37766090 *
+*Baskets :     2418 : Basket Size=    8029696 bytes  Compression=   2.79     *
+*............................................................................*
+Info in <TCanvas::Print>: pdf file pdfs/write_pt_1000000_0_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_px_1000000_0_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_py_1000000_0_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_pz_1000000_0_50.pdf has been created
+
+wr_hvec_N1000000_F0_Sz50: Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+TOTAL     : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+Flush = -30000000 and N = 1000000 and vec size = 50
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       658104527 bytes  File  Size =  448621182 *
+*        :          : Tree compression factor =   1.46                       *
+******************************************************************************
+*Br    0 :vpx       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112018677 bytes  File Size  =   98900415 *
+*Baskets :      284 : Basket Size=    3255296 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    1 :vpy       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112018677 bytes  File Size  =   98902571 *
+*Baskets :      284 : Basket Size=    3255296 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    2 :vpz       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112018677 bytes  File Size  =   96375507 *
+*Baskets :      284 : Basket Size=    3255296 bytes  Compression=   1.16     *
+*............................................................................*
+*Br    3 :vpt       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  210028937 bytes  File Size  =  115201699 *
+*Baskets :      490 : Basket Size=    5638656 bytes  Compression=   1.82     *
+*............................................................................*
+*Br    4 :vint      : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112018967 bytes  File Size  =   39226266 *
+*Baskets :      284 : Basket Size=    3255808 bytes  Compression=   2.85     *
+*............................................................................*
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file pdfs/write_pt_1000000_-30000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_px_1000000_-30000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_py_1000000_-30000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_pz_1000000_-30000000_50.pdf has been created
+
+wr_hvec_N1000000_F-30000000_Sz50: Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+TOTAL     : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+Flush = -1000000 and N = 1000000 and vec size = 50
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       657950838 bytes  File  Size =  449821238 *
+*        :          : Tree compression factor =   1.46                       *
+******************************************************************************
+*Br    0 :vpx       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  111998835 bytes  File Size  =   99080830 *
+*Baskets :      429 : Basket Size=     286208 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    1 :vpy       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  111998835 bytes  File Size  =   99081309 *
+*Baskets :      429 : Basket Size=     286208 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    2 :vpz       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  111998835 bytes  File Size  =   96656269 *
+*Baskets :      429 : Basket Size=     286208 bytes  Compression=   1.16     *
+*............................................................................*
+*Br    3 :vpt       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  209954471 bytes  File Size  =  115407349 *
+*Baskets :      439 : Basket Size=     520192 bytes  Compression=   1.82     *
+*............................................................................*
+*Br    4 :vint      : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  111999270 bytes  File Size  =   39576735 *
+*Baskets :      429 : Basket Size=     286208 bytes  Compression=   2.83     *
+*............................................................................*
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file pdfs/write_pt_1000000_-1000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_px_1000000_-1000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_py_1000000_-1000000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_pz_1000000_-1000000_50.pdf has been created
+
+wr_hvec_N1000000_F-1000000_Sz50: Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+TOTAL     : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+Flush = 10000 and N = 1000000 and vec size = 50
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       658063609 bytes  File  Size =  449875960 *
+*        :          : Tree compression factor =   1.46                       *
+******************************************************************************
+*Br    0 :vpx       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112012293 bytes  File Size  =   99162074 *
+*Baskets :      136 : Basket Size=    1191936 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    1 :vpy       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112012293 bytes  File Size  =   99161543 *
+*Baskets :      136 : Basket Size=    1191936 bytes  Compression=   1.13     *
+*............................................................................*
+*Br    2 :vpz       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  112012293 bytes  File Size  =   96635355 *
+*Baskets :      136 : Basket Size=    1191936 bytes  Compression=   1.16     *
+*............................................................................*
+*Br    3 :vpt       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  210013673 bytes  File Size  =  115579620 *
+*Baskets :      168 : Basket Size=    2163200 bytes  Compression=   1.82     *
+*............................................................................*
+*Br    4 :vint      : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112012433 bytes  File Size  =   39330405 *
+*Baskets :      136 : Basket Size=    1191936 bytes  Compression=   2.85     *
+*............................................................................*
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file pdfs/write_pt_1000000_10000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_px_1000000_10000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_py_1000000_10000_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_pz_1000000_10000_50.pdf has been created
+
+wr_hvec_N1000000_F10000_Sz50: Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+TOTAL     : Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+Flush = 100 and N = 1000000 and vec size = 50
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       663449183 bytes  File  Size =  456434105 *
+*        :          : Tree compression factor =   1.45                       *
+******************************************************************************
+*Br    0 :vpx       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  113052501 bytes  File Size  =  100628474 *
+*Baskets :    10238 : Basket Size=      12800 bytes  Compression=   1.12     *
+*............................................................................*
+*Br    1 :vpy       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  113052501 bytes  File Size  =  100626586 *
+*Baskets :    10238 : Basket Size=      12800 bytes  Compression=   1.12     *
+*............................................................................*
+*Br    2 :vpz       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  113052501 bytes  File Size  =   97881388 *
+*Baskets :    10238 : Basket Size=      12800 bytes  Compression=   1.15     *
+*............................................................................*
+*Br    3 :vpt       : vector<float>                                          *
+*Entries :  1000000 : Total  Size=  211228313 bytes  File Size  =  114783445 *
+*Baskets :    11884 : Basket Size=      22528 bytes  Compression=   1.84     *
+*............................................................................*
+*Br    4 :vint      : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  113062743 bytes  File Size  =   42063255 *
+*Baskets :    10238 : Basket Size=      12800 bytes  Compression=   2.68     *
+*............................................................................*
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file pdfs/write_pt_1000000_100_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_px_1000000_100_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_py_1000000_100_50.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/write_pz_1000000_100_50.pdf has been created
+
+wr_hvec_N1000000_F100_Sz50: Real Time =   0.00 seconds Cpu Time =   0.00 seconds
+TOTAL     : Real Time =   0.00 seconds Cpu Time =   0.00 seconds

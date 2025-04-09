@@ -1,0 +1,10 @@
+1. Mixing the kinds of data in a basket can lead to an improvement in compression of the data over just one data type. This also leads to a decrease in time used.
+
+3.
+    b. For both the case with only floats in the baskets and the case with multiple data types, the compression factor rises significantly as the basket size increases
+
+    c. The benchmarks tell us that when the compression factor is higher the write time is lower
+
+Day 2:
+
+1. The ReadExampleElectron script can be easily modified to read back the new float decoration, however the long double decoration I was unable to read back.

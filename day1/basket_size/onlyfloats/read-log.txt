@@ -1,0 +1,73 @@
+Warning in <UnknownClass::SetDisplay>: DISPLAY not set, setting it to 24.148.33.103:0.0
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 4====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_4.root has been created
+
+Disk Mean = 0.0434355 and RMS/sqrt(N) = 0.000197505
+read_hvector: Real Time =  17.50 seconds Cpu Time =  16.28 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 8====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_8.root has been created
+
+Disk Mean = 0.0398644 and RMS/sqrt(N) = 0.00029749
+read_hvector: Real Time =  14.76 seconds Cpu Time =  13.77 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 16====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_16.root has been created
+
+Disk Mean = 0.0440624 and RMS/sqrt(N) = 0.00397741
+read_hvector: Real Time =  13.70 seconds Cpu Time =  12.74 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 32====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_32.root has been created
+
+Disk Mean = 0.0370978 and RMS/sqrt(N) = 0.000353057
+read_hvector: Real Time =  13.27 seconds Cpu Time =  12.31 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 64====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_64.root has been created
+
+Disk Mean = 0.0352267 and RMS/sqrt(N) = 0.000804465
+read_hvector: Real Time =  13.12 seconds Cpu Time =  12.17 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 128====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_128.root has been created
+
+Disk Mean = 0.0365364 and RMS/sqrt(N) = 0.000316774
+read_hvector: Real Time =  13.05 seconds Cpu Time =  12.10 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 256====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_256.root has been created
+
+Disk Mean = 0.036068 and RMS/sqrt(N) = 0.000360342
+read_hvector: Real Time =  12.89 seconds Cpu Time =  11.95 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 512====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_512.root has been created
+
+Disk Mean = 0.0347438 and RMS/sqrt(N) = 0.000324358
+read_hvector: Real Time =  12.78 seconds Cpu Time =  11.86 seconds
+
+<==== Flush Setting: @ 0====>
+<==== Basket Size: 1024====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50_1024.root has been created
+
+Disk Mean = 0.0331324 and RMS/sqrt(N) = 0.000302043
+read_hvector: Real Time =  12.64 seconds Cpu Time =  11.76 seconds

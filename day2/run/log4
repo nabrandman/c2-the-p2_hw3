@@ -1,0 +1,734 @@
+Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into 'SimplePoolFile_xAOD.root'
+Py:MetaReader        INFO Current mode used: lite
+Py:MetaReader        INFO Current filenames: ['SimplePoolFile_xAOD.root']
+Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+ApplicationMgr    SUCCESS 
+====================================================================================================================================
+                                                   Welcome to ApplicationMgr (GaudiCoreSvc v39r4)
+                                          running on login02.af.uchicago.edu on Mon Apr  7 14:42:19 2025
+====================================================================================================================================
+ApplicationMgr       INFO Application Manager Configured successfully
+Py:ComponentAccumulator    INFO Athena job with pid 2119686
+CoreDumpSvc                                          INFO Handling signals: 11(Segmentation fault) 7(Bus error) 4(Illegal instruction) 14(Alarm clock) 
+AthenaEventLoopMgr                                   INFO Initializing AthenaEventLoopMgr
+ReadExampleElectron                                  INFO ReadExampleElectron: in initialize()
+ClassIDSvc                                           INFO getRegistryEntries: read 4797 CLIDRegistry entries for module ALL
+MetaDataSvc                                          INFO Initializing MetaDataSvc
+PoolSvc                                             DEBUG Service base class initialized successfully
+PoolSvc                                              INFO io_register[PoolSvc](xmlcatalog_file:PoolFileCatalog.xml) [ok]
+PoolSvc                                              INFO Set connectionsvc retry/timeout/IDLE timeout to  'ConnectionRetrialPeriod':300/ 'ConnectionRetrialTimeOut':3600/ 'ConnectionTimeOut':5 seconds with connection cleanup disabled
+PoolSvc                                              INFO Frontier compression level set to 5
+DBReplicaSvc                                         INFO Frontier server at (serverurl=http://atlasfrontier-ai.cern.ch:8000/atlr)(serverurl=http://atlasfrontier1-ai.cern.ch:8000/atlr)(serverurl=http://atlasfrontier2-ai.cern.ch:8000/atlr)(proxyurl=http://v4a.mwt2.org:6082)(proxyurl=http://iut2-slate.mwt2.org:32200)(proxyurl=http://uct2-squid.mwt2.org:3128)(proxyurl=http://v4f.hl-lhc.net:6082)(proxyurl=http://atlasbpfrontier.cern.ch:3127)(proxyurl=http://atlasbpfrontier.fnal.gov:3127) will be considered for COOL data
+DBReplicaSvc                                         INFO Read replica configuration from /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-04-06T2101/Athena/25.0.29/InstallArea/x86_64-el9-gcc13-opt/share/dbreplica.config
+DBReplicaSvc                                         INFO Total of 1 servers found for host login02.af.uchicago.edu [ATLF ]
+PoolSvc                                              INFO Successfully setup replica sorting algorithm
+PoolSvc                                             DEBUG OutputLevel is 2
+PoolSvc                                              INFO Setting up APR FileCatalog and Streams
+PoolSvc                                             DEBUG POOL ReadCatalog is file:Catalog1.xml
+PoolSvc                                              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+AthenaPoolCnvSvc                                    DEBUG Setting StorageType to ROOTTREEINDEX
+MetaDataSvc                                          INFO Found MetaDataTools = PublicToolHandleArray(['xAODMaker::FileMetaDataTool/xAODMaker::FileMetaDataTool'])
+EventSelector                                       DEBUG Initializing EventSelector
+EventSelector                                       DEBUG Service base class initialized successfully
+EventSelector                                       DEBUG reinitialization...
+EventSelector                                       DEBUG Try item: "SimplePoolFile_xAOD.root" from the collection list.
+PoolSvc                                             DEBUG createCollection() type=RootCollection, connection=PFN:SimplePoolFile_xAOD.root, name=SimplePoolFile_xAOD.root, contextID=0
+PoolSvc                                             DEBUG createCollection() type=ImplicitCollection, connection=PFN:SimplePoolFile_xAOD.root, name=POOLContainer(DataHeader), contextID=0
+PersistencySvc::UserDB::fid()                       DEBUG lookupPFN: SimplePoolFile_xAOD.root returned FID: '4E49F3E9-1408-964D-B674-49A7833EDE0C' tech=ROOT_All
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] 4E49F3E9-1408-964D-B674-49A7833EDE0C
+Domain[ROOT_All]                                     INFO                           SimplePoolFile_xAOD.root
+RootDatabase.open                                    INFO SimplePoolFile_xAOD.root File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+##Shapes                                            DEBUG Opening
+##Shapes                                            DEBUG    attributes# = 1
+##Shapes                                            DEBUG Opened container ##Shapes of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[0 , 0D6FFB22-1BCB-49B9-BBFB-66B6DF352067]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventAuxInfo_v3 Typ:xAOD::EventAuxInfo_v3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[1 , A57CD90B-B697-4067-93C7-28252B1FF9D5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::ExampleElectronAuxContainer_v1 Typ:xAOD::ExampleElectronAuxContainer_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[2 , FF777FDA-721C-4756-BBF3-4CE28C2A3AF5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:ExampleTrackContainer_p1 Typ:ExampleTrackContainer_p1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[3 , AE8BED6D-1D41-4CAF-994B-42613FC91A0A]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventInfo_v1 Typ:xAOD::EventInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[4 , 4508E3FC-03A7-4770-BF41-71431F86050C]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataVector<xAOD::ExampleElectron_v1> Typ:DataVector<xAOD::ExampleElectron_v1> [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[5 , 4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeader_p6 Typ:DataHeader_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[6 , 7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeaderForm_p6 Typ:DataHeaderForm_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[7 , BEE2BECF-A936-4078-9FDD-AD703C9ADF9F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaDataAuxInfo_v1 Typ:xAOD::FileMetaDataAuxInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[8 , 11DF1B8C-0DEE-4687-80D7-E74B520ACBB4]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:EventStreamInfo_p3 Typ:EventStreamInfo_p3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[9 , C87E3828-4A7A-480A-95DE-0339539F6A0F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaData_v1 Typ:xAOD::FileMetaData_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[10 , 6C2DE6DF-6D52-43F6-B435-9F29812F40C0]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:IOVMetaDataContainer_p1 Typ:IOVMetaDataContainer_p1 [21] Size:0 Offset:0 #Elements:1
+##Shapes                                            DEBUG No objects passing selection criteria... Container has 11 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Links
+##Links                                             DEBUG Opening
+##Links                                             DEBUG    attributes# = 1
+##Links                                             DEBUG Opened container ##Links of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/##Params [200]  (20152c00000002 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:DA8F479C-09BC-49D4-94BC-99D025A23A3B
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(EventInfoAux.) [203]  (20152c00000003 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:0D6FFB22-1BCB-49B9-BBFB-66B6DF352067
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(TestContainerAux.) [203]  (20152c00000004 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:A57CD90B-B697-4067-93C7-28252B1FF9D5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(MyTracks) [203]  (20152c00000005 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:FF777FDA-721C-4756-BBF3-4CE28C2A3AF5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(EventInfo) [203]  (20152c00000006 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:AE8BED6D-1D41-4CAF-994B-42613FC91A0A
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(TestContainer) [203]  (20152c00000007 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4508E3FC-03A7-4770-BF41-71431F86050C
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/POOLContainer(DataHeader) [203]  (20152c00000008 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/POOLContainerForm(DataHeaderForm) [203]  (20152c00000009 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(FileMetaDataAux.) [202]  (20152c0000000a , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:BEE2BECF-A936-4078-9FDD-AD703C9ADF9F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(StreamWritexAODElectrons) [202]  (20152c0000000b , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:11DF1B8C-0DEE-4687-80D7-E74B520ACBB4
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(FileMetaData) [202]  (20152c0000000c , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:C87E3828-4A7A-480A-95DE-0339539F6A0F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(/TagInfo) [202]  (20152c0000000d , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:6C2DE6DF-6D52-43F6-B435-9F29812F40C0
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaDataHdr(DataHeader) [202]  (20152c0000000e , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaDataHdrForm(DataHeaderForm) [202]  (20152c0000000f , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+##Links                                             DEBUG No objects passing selection criteria... Container has 14 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Params
+##Params                                            DEBUG Opening
+##Params                                            DEBUG    attributes# = 1
+##Params                                            DEBUG Opened container ##Params of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FID=[4E49F3E9-1408-964D-B674-49A7833EDE0C]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:PFN=[SimplePoolFile_xAOD.root]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:POOL_VSN=[1.1]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FORMAT_VSN=[2.0]
+##Params                                            DEBUG No objects passing selection criteria... Container has 4 Entries in total.
+RootDatabase.onOpen                                 DEBUG 4E49F3E9-1408-964D-B674-49A7833EDE0C File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+POOLContainer(DataHeader)                           DEBUG Opening
+POOLContainer(DataHeader)                           DEBUG    attributes# = 1
+POOLContainer(DataHeader)                           DEBUG Branch container 'DataHeader'
+POOLContainer(DataHeader)                           DEBUG Opened container POOLContainer(DataHeader) of type ROOT_Tree
+MetaDataSvc                                         DEBUG handle() FirstInputFile for FID:4E49F3E9-1408-964D-B674-49A7833EDE0C
+MetaDataSvc                                         DEBUG initInputMetaDataStore: file name FID:4E49F3E9-1408-964D-B674-49A7833EDE0C
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+MetaDataHdr(DataHeader)                             DEBUG Opening
+MetaDataHdr(DataHeader)                             DEBUG    attributes# = 1
+MetaDataHdr(DataHeader)                             DEBUG Branch container 'DataHeader'
+MetaDataHdr(DataHeader)                             DEBUG Opened container MetaDataHdr(DataHeader) of type ROOT_Tree
+EventPersistencySvc                                  INFO Added successfully Conversion service AthenaPoolCnvSvc
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaDataHdrForm(DataHeaderForm)
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Opening
+MetaDataHdrForm(DataHeaderForm)                     DEBUG    attributes# = 1
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Branch container 'DataHeaderForm'
+MetaDataHdrForm(DataHeaderForm)                     DEBUG Opened container MetaDataHdrForm(DataHeaderForm) of type ROOT_Tree
+MetaDataSvc                                         DEBUG Loaded input meta data store proxies
+MetaDataSvc                                         DEBUG Registering all Tools in ToolHandleArray MetaDataTools
+MetaDataSvc                                         DEBUG Adding public ToolHandle tool ToolSvc.xAODMaker::FileMetaDataTool (xAODMaker::FileMetaDataTool)
+MetaDataSvc                                          INFO   AlgTool: ToolSvc.xAODMaker::FileMetaDataTool
+ReadExampleElectron                                 DEBUG input handles: 6
+ReadExampleElectron                                 DEBUG output handles: 0
+ClassIDSvc                                           INFO getRegistryEntries: read 1582 CLIDRegistry entries for module ALL
+ReadExampleElectron                                 DEBUG data dependencies:
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor1' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_bool' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_float' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_halfpt' ) 
+  + INPUT   ( 'xAOD::ExampleElectronContainer' , 'StoreGateSvc+TestContainer.decor_longdouble' ) 
+AthenaEventLoopMgr                                   INFO Setup EventSelector service EventSelector
+ApplicationMgr                                       INFO Application Manager Initialized successfully
+StorageSvc                                          DEBUG Disconnect request for database: FID=4E49F3E9-1408-964D-B674-49A7833EDE0C PFN=SimplePoolFile_xAOD.root
+StorageSvc                                          DEBUG Closing database: FID=4E49F3E9-1408-964D-B674-49A7833EDE0C
+SimplePoolFile_xAOD.root                             INFO Database being retired...
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Links
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Params
+RootDatabase.close                                  DEBUG Closing DB SimplePoolFile_xAOD.root
+RootDatabase.close                                  DEBUG I/O READ  Bytes: 5506
+RootDatabase.close                                  DEBUG I/O WRITE Bytes: 0
+RootDatabase.close                                  DEBUG I/O OTHER Bytes: 0
+Domain[ROOT_All]                                     INFO ->  Deaccess DbDatabase   READ      [ROOT_All] 4E49F3E9-1408-964D-B674-49A7833EDE0C
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaDataHdrForm(DataHeaderForm)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All] 
+EventSelector                                       DEBUG Try item: "SimplePoolFile_xAOD.root" from the collection list.
+PoolSvc                                             DEBUG createCollection() type=RootCollection, connection=PFN:SimplePoolFile_xAOD.root, name=SimplePoolFile_xAOD.root, contextID=0
+PoolSvc                                             DEBUG createCollection() type=ImplicitCollection, connection=PFN:SimplePoolFile_xAOD.root, name=POOLContainer(DataHeader), contextID=0
+PersistencySvc::UserDB::fid()                       DEBUG lookupPFN: SimplePoolFile_xAOD.root returned FID: '4E49F3E9-1408-964D-B674-49A7833EDE0C' tech=ROOT_All
+DbSession                                            INFO     Open     DbSession    
+Domain[ROOT_All]                                     INFO >   Access   DbDomain     READ      [ROOT_All] 
+Domain[ROOT_All]                                     INFO ->  Access   DbDatabase   READ      [ROOT_All] 4E49F3E9-1408-964D-B674-49A7833EDE0C
+Domain[ROOT_All]                                     INFO                           SimplePoolFile_xAOD.root
+RootDatabase.open                                    INFO SimplePoolFile_xAOD.root File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Shapes
+##Shapes                                            DEBUG Opening
+##Shapes                                            DEBUG    attributes# = 1
+##Shapes                                            DEBUG Opened container ##Shapes of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[0 , 0D6FFB22-1BCB-49B9-BBFB-66B6DF352067]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventAuxInfo_v3 Typ:xAOD::EventAuxInfo_v3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[1 , A57CD90B-B697-4067-93C7-28252B1FF9D5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::ExampleElectronAuxContainer_v1 Typ:xAOD::ExampleElectronAuxContainer_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[2 , FF777FDA-721C-4756-BBF3-4CE28C2A3AF5]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:ExampleTrackContainer_p1 Typ:ExampleTrackContainer_p1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[3 , AE8BED6D-1D41-4CAF-994B-42613FC91A0A]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::EventInfo_v1 Typ:xAOD::EventInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[4 , 4508E3FC-03A7-4770-BF41-71431F86050C]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataVector<xAOD::ExampleElectron_v1> Typ:DataVector<xAOD::ExampleElectron_v1> [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[5 , 4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeader_p6 Typ:DataHeader_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[6 , 7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:DataHeaderForm_p6 Typ:DataHeaderForm_p6 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[7 , BEE2BECF-A936-4078-9FDD-AD703C9ADF9F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaDataAuxInfo_v1 Typ:xAOD::FileMetaDataAuxInfo_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[8 , 11DF1B8C-0DEE-4687-80D7-E74B520ACBB4]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:EventStreamInfo_p3 Typ:EventStreamInfo_p3 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[9 , C87E3828-4A7A-480A-95DE-0339539F6A0F]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:xAOD::FileMetaData_v1 Typ:xAOD::FileMetaData_v1 [21] Size:0 Offset:0 #Elements:1
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Shape[10 , 6C2DE6DF-6D52-43F6-B435-9F29812F40C0]: [1 Column(s)]
+SimplePoolFile_xAOD.root                            DEBUG ---->[0]:IOVMetaDataContainer_p1 Typ:IOVMetaDataContainer_p1 [21] Size:0 Offset:0 #Elements:1
+##Shapes                                            DEBUG No objects passing selection criteria... Container has 11 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Links
+##Links                                             DEBUG Opening
+##Links                                             DEBUG    attributes# = 1
+##Links                                             DEBUG Opened container ##Links of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/##Params [200]  (20152c00000002 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:DA8F479C-09BC-49D4-94BC-99D025A23A3B
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(EventInfoAux.) [203]  (20152c00000003 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:0D6FFB22-1BCB-49B9-BBFB-66B6DF352067
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(TestContainerAux.) [203]  (20152c00000004 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:A57CD90B-B697-4067-93C7-28252B1FF9D5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(MyTracks) [203]  (20152c00000005 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:FF777FDA-721C-4756-BBF3-4CE28C2A3AF5
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(EventInfo) [203]  (20152c00000006 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:AE8BED6D-1D41-4CAF-994B-42613FC91A0A
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/CollectionTree(TestContainer) [203]  (20152c00000007 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4508E3FC-03A7-4770-BF41-71431F86050C
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/POOLContainer(DataHeader) [203]  (20152c00000008 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/POOLContainerForm(DataHeaderForm) [203]  (20152c00000009 , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(FileMetaDataAux.) [202]  (20152c0000000a , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:BEE2BECF-A936-4078-9FDD-AD703C9ADF9F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(StreamWritexAODElectrons) [202]  (20152c0000000b , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:11DF1B8C-0DEE-4687-80D7-E74B520ACBB4
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(FileMetaData) [202]  (20152c0000000c , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:C87E3828-4A7A-480A-95DE-0339539F6A0F
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaData(/TagInfo) [202]  (20152c0000000d , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:6C2DE6DF-6D52-43F6-B435-9F29812F40C0
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaDataHdr(DataHeader) [202]  (20152c0000000e , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Assoc:4E49F3E9-1408-964D-B674-49A7833EDE0C/MetaDataHdrForm(DataHeaderForm) [202]  (20152c0000000f , ffffffffffffffff)
+SimplePoolFile_xAOD.root                            DEBUG ---->ClassID:7BE56CEF-C866-4BEE-9348-A5F34B5F1DAD
+##Links                                             DEBUG No objects passing selection criteria... Container has 14 Entries in total.
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_All] ##Params
+##Params                                            DEBUG Opening
+##Params                                            DEBUG    attributes# = 1
+##Params                                            DEBUG Opened container ##Params of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FID=[4E49F3E9-1408-964D-B674-49A7833EDE0C]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:PFN=[SimplePoolFile_xAOD.root]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:POOL_VSN=[1.1]
+SimplePoolFile_xAOD.root                            DEBUG --->Reading Param:FORMAT_VSN=[2.0]
+##Params                                            DEBUG No objects passing selection criteria... Container has 4 Entries in total.
+RootDatabase.onOpen                                 DEBUG 4E49F3E9-1408-964D-B674-49A7833EDE0C File version:63404
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+POOLContainer(DataHeader)                           DEBUG Opening
+POOLContainer(DataHeader)                           DEBUG    attributes# = 1
+POOLContainer(DataHeader)                           DEBUG Branch container 'DataHeader'
+POOLContainer(DataHeader)                           DEBUG Opened container POOLContainer(DataHeader) of type ROOT_Tree
+ApplicationMgr                                       INFO Application Manager Started successfully
+RootDatabase.setOption                              DEBUG Request tree cache 
+RootDatabase.setOption                              DEBUG File name SimplePoolFile_xAOD.root
+RootDatabase.setOption                              DEBUG Got tree CollectionTree read entry -1
+RootDatabase.setOption                              DEBUG Using Tree cache. Size: -1 Nevents to learn with: -1
+AthenaPoolCnvSvc                                    DEBUG setAttribute TREE_CACHE to -1 for db: SimplePoolFile_xAOD.root and cont: CollectionTree
+MetaDataSvc                                         DEBUG handle() BeginInputFile for SimplePoolFile_xAOD.root
+MetaDataSvc                                         DEBUG initInputMetaDataStore: file name SimplePoolFile_xAOD.root
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+MetaDataHdr(DataHeader)                             DEBUG Opening
+MetaDataHdr(DataHeader)                             DEBUG    attributes# = 1
+MetaDataHdr(DataHeader)                             DEBUG Branch container 'DataHeader'
+MetaDataHdr(DataHeader)                             DEBUG Opened container MetaDataHdr(DataHeader) of type ROOT_Tree
+MetaDataSvc                                         DEBUG Loaded input meta data store proxies
+MetaDataSvc                                         DEBUG  calling beginInputFile on ToolSvc.xAODMaker::FileMetaDataTool for GUID "4E49F3E9-1408-964D-B674-49A7833EDE0C"
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaData(FileMetaData)
+MetaData(FileMetaData)                              DEBUG Opening
+MetaData(FileMetaData)                              DEBUG    attributes# = 1
+MetaData(FileMetaData)                              DEBUG Branch container 'FileMetaData'
+MetaData(FileMetaData)                              DEBUG Opened container MetaData(FileMetaData) of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_Tree] MetaData(FileMetaDataAux.)
+MetaData(FileMetaDataAux.)                          DEBUG Opening
+MetaData(FileMetaDataAux.)                          DEBUG    attributes# = 1
+MetaData(FileMetaDataAux.)                          DEBUG Branch container 'FileMetaDataAux.'
+MetaData(FileMetaDataAux.)                          DEBUG Opened container MetaData(FileMetaDataAux.) of type ROOT_Tree
+ClassIDSvc                                           INFO getRegistryEntries: read 60 CLIDRegistry entries for module ALL
+MetaDataSvc                                         DEBUG MetaDataSvc will handle xAOD::FileMetaData_v1 ClassID: 178309087
+MetaDataSvc                                         DEBUG MetaDataSvc will handle xAOD::FileMetaDataAuxInfo_v1 ClassID: 73252552
+ToolSvc.xAODMaker::FileMetaDataTool                  INFO Copied "FileMetaData" to MetaDataStore
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000000].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000000].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000000]
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] POOLContainerForm(DataHeaderForm)
+POOLContainerForm(DataHeaderForm)                   DEBUG Opening
+POOLContainerForm(DataHeaderForm)                   DEBUG    attributes# = 1
+POOLContainerForm(DataHeaderForm)                   DEBUG Branch container 'DataHeaderForm'
+POOLContainerForm(DataHeaderForm)                   DEBUG Opened container POOLContainerForm(DataHeaderForm) of type ROOT_Tree
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] CollectionTree(EventInfo)
+CollectionTree(EventInfo)                           DEBUG Opening
+CollectionTree(EventInfo)                           DEBUG    attributes# = 1
+CollectionTree(EventInfo)                           DEBUG Branch container 'EventInfo'
+CollectionTree(EventInfo)                           DEBUG Opened container CollectionTree(EventInfo) of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] CollectionTree(EventInfoAux.)
+CollectionTree(EventInfoAux.)                       DEBUG Opening
+CollectionTree(EventInfoAux.)                       DEBUG    attributes# = 1
+CollectionTree(EventInfoAux.)                       DEBUG Branch container 'EventInfoAux.'
+CollectionTree(EventInfoAux.)                       DEBUG Opened container CollectionTree(EventInfoAux.) of type ROOT_Tree
+TBranchAuxDynReader                                  INFO RootAuxDynIO/src/TBranchAuxDynReader.cxx:308 (TBranchAuxDynReader::BranchInfo& TBranchAuxDynReader::getBranchInfo(const unsigned long&, const SG::AuxStoreInternal&)): attribute 'mcEventNumber' (id=1 typename=unsigned long) has different type than the branch: ULong64_t  Marking for schema evolution.
+AthenaEventLoopMgr                                   INFO   ===>>>  start of run 1    <<<===
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967297, run #1 0 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] CollectionTree(TestContainer)
+CollectionTree(TestContainer)                       DEBUG Opening
+CollectionTree(TestContainer)                       DEBUG    attributes# = 1
+CollectionTree(TestContainer)                       DEBUG Branch container 'TestContainer'
+CollectionTree(TestContainer)                       DEBUG Opened container CollectionTree(TestContainer) of type ROOT_Tree
+SimplePoolFile_xAOD.root                            DEBUG --> Access   DbContainer  READ      [ROOT_TreeIndex] CollectionTree(TestContainerAux.)
+CollectionTree(TestContainerAux.)                   DEBUG Opening
+CollectionTree(TestContainerAux.)                   DEBUG    attributes# = 1
+CollectionTree(TestContainerAux.)                   DEBUG Branch container 'TestContainerAux.'
+CollectionTree(TestContainerAux.)                   DEBUG Opened container CollectionTree(TestContainerAux.) of type ROOT_Tree
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 137.584, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 68.7918
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967297, run #1 1 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000001].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000001].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000001]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967298, run #1 1 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 228.153, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 114.077
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967298, run #1 2 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000002].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000002].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000002]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967299, run #1 2 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 324.306, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 162.153
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967299, run #1 3 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000003].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000003].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000003]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967300, run #1 3 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 422.255, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 211.127
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967300, run #1 4 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000004].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000004].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000004]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967301, run #1 4 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 520.987, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 260.494
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967301, run #1 5 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000005].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000005].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000005]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967302, run #1 5 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 620.127, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 310.064
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967302, run #1 6 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000006].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000006].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000006]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967303, run #1 6 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 719.507, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 359.753
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967303, run #1 7 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000007].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000007].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000007]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967304, run #1 7 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 819.038, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 409.519
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967304, run #1 8 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000008].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000008].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000008]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967305, run #1 8 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 918.671, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 459.335
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967305, run #1 9 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000009].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000009].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000009]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967306, run #1 9 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1018.38, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 509.188
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967306, run #1 10 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000A].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000A].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000A]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967307, run #1 10 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1118.13, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 559.067
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967307, run #1 11 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000B].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000B].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000B]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967308, run #1 11 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1217.93, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 608.966
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967308, run #1 12 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000C].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000C].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000C]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967309, run #1 12 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1317.76, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 658.88
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967309, run #1 13 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000D].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000D].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000D]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967310, run #1 13 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1417.61, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 708.807
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967310, run #1 14 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000E].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000E].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000E]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967311, run #1 14 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1517.49, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 758.743
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967311, run #1 15 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000F].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000F].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-000000000000000F]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967312, run #1 15 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1617.37, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 808.687
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967312, run #1 16 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000010].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000010].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000010]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967313, run #1 16 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1717.27, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 858.637
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967313, run #1 17 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000011].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000011].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000011]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967314, run #1 17 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1817.19, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 908.593
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967314, run #1 18 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000012].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000012].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000012]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967315, run #1 18 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 1917.11, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 958.554
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967315, run #1 19 events processed so far  <<<===
+EventSelector                                       DEBUG Get AttributeList from the collection
+EventSelector                                       DEBUG AttributeList size 0
+EventSelector                                       DEBUG record AthenaAttribute, name = Token = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000013].
+EventSelector                                       DEBUG record AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000013].
+EventSelector                                       DEBUG found AthenaAttribute, name = eventRef = [DB=4E49F3E9-1408-964D-B674-49A7833EDE0C][CNT=POOLContainer(DataHeader)][CLID=4DDBD295-EFCE-472A-9EC8-15CD35A9EB8D][TECH=00000203][OID=0020152C00000008-0000000000000013]
+AthenaPoolAddressProviderSvc                        DEBUG The current Event contains: 6 objects
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 38853911, name = EventInfoAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1202247486, name = TestContainerAux.
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 9103, name = MyTracks
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 45903698, name = EventInfo
+AthenaPoolAddressProviderSvc                        DEBUG loadAddresses: DataObject address, clid = 1340937587, name = TestContainer
+AthenaEventLoopMgr                                   INFO   ===>>>  start processing event #4294967316, run #1 19 events processed so far  <<<===
+ReadExampleElectron                                  INFO ReadExampleElectron: is executing ...
+ReadExampleElectron                                  INFO ExampleElectron #0 {pt = 2017.04, charge = 0} 
+ReadExampleElectron                                  INFO Decoration reader: decor1 = 115.9
+ReadExampleElectron                                  INFO Decoration reader: decor float = 33.3
+ReadExampleElectron                                  INFO Decoration reader: decor bool = 0
+ReadExampleElectron                                  INFO Decoration reader: decor half Pt = 1008.52
+AthenaEventLoopMgr                                   INFO   ===>>>  done processing event #4294967316, run #1 20 events processed so far  <<<===
+MetaDataSvc                                         DEBUG handle() EndInputFile for FID:4E49F3E9-1408-964D-B674-49A7833EDE0C
+MetaDataSvc                                         DEBUG retireMetadataSource: FID:4E49F3E9-1408-964D-B674-49A7833EDE0C
+MetaDataSvc                                         DEBUG  calling endInputFile on ToolSvc.xAODMaker::FileMetaDataTool for GUID "4E49F3E9-1408-964D-B674-49A7833EDE0C"
+EventSelector                                        INFO Disconnecting input sourceID: 4E49F3E9-1408-964D-B674-49A7833EDE0C
+StorageSvc                                          DEBUG Disconnect request for database: FID=4E49F3E9-1408-964D-B674-49A7833EDE0C PFN=SimplePoolFile_xAOD.root
+StorageSvc                                          DEBUG Closing database: FID=4E49F3E9-1408-964D-B674-49A7833EDE0C
+SimplePoolFile_xAOD.root                             INFO Database being retired...
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Links
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Shapes
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_All] ##Params
+RootDatabase.close                                  DEBUG Closing DB SimplePoolFile_xAOD.root
+RootDatabase.close                                  DEBUG I/O READ  Bytes: 18681
+RootDatabase.close                                  DEBUG I/O WRITE Bytes: 0
+RootDatabase.close                                  DEBUG I/O OTHER Bytes: 0
+Domain[ROOT_All]                                     INFO ->  Deaccess DbDatabase   READ      [ROOT_All] 4E49F3E9-1408-964D-B674-49A7833EDE0C
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] CollectionTree(EventInfo)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] CollectionTree(EventInfoAux.)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] CollectionTree(TestContainer)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] CollectionTree(TestContainerAux.)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaData(FileMetaData)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaData(FileMetaDataAux.)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_Tree] MetaDataHdr(DataHeader)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] POOLContainer(DataHeader)
+SimplePoolFile_xAOD.root                            DEBUG --> Deaccess DbContainer  READ      [ROOT_TreeIndex] POOLContainerForm(DataHeaderForm)
+Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All] 
+AthenaEventLoopMgr                                   INFO No more events in event selection 
+MetaDataSvc                                         DEBUG MetaDataSvc::stop()
+PoolSvc                                             DEBUG Disconnect request for contextId=0
+PoolSvc                                             DEBUG Disconnected PersistencySvc session
+PoolSvc                                             DEBUG Disconnect request for contextId=1
+ApplicationMgr                                       INFO Application Manager Stopped successfully
+ReadExampleElectron                                  INFO ReadExampleElectronin finalize()
+ReadExampleElectron                                 DEBUG Calling destructor
+ToolSvc                                              INFO Removing all tools created by ToolSvc
+AthenaPoolCnvSvc                                     INFO PerfStats ----------------------------------------
+AthenaPoolCnvSvc                                     INFO PerfStats Timing Measurements for AthenaPoolCnvSvc
+AthenaPoolCnvSvc                                     INFO PerfStats ----------------------------------------
+AthenaPoolCnvSvc                                     INFO PerfStats | cObjR_ALL       |              11 ms |
+AthenaPoolCnvSvc                                     INFO PerfStats | cObj_ALL        |              32 ms |
+AthenaPoolCnvSvc                                     INFO PerfStats ----------------------------------------
+Domain[ROOT_All]                                     INFO >   Deaccess DbDomain     READ      [ROOT_All] 
+FPEAuditor                                           INFO FPE summary for this job
+FPEAuditor                                           INFO  FPE OVERFLOWs  : 0
+FPEAuditor                                           INFO  FPE INVALIDs   : 0
+FPEAuditor                                           INFO  FPE DIVBYZEROs : 0
+ApplicationMgr                                       INFO Application Manager Finalized successfully
+ApplicationMgr                                       INFO Application Manager Terminated successfully

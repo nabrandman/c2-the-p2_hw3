@@ -1,0 +1,36 @@
+Warning in <UnknownClass::SetDisplay>: DISPLAY not set, setting it to 24.148.33.103:0.0
+
+<==== Flush Setting: @ 0====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_0_50.root has been created
+
+Disk Mean = 0.119897 and RMS/sqrt(N) = 0.000295349
+read_hvector: Real Time =  37.06 seconds Cpu Time =  35.76 seconds
+
+<==== Flush Setting: @ -30000000====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_-30000000_50.root has been created
+
+Disk Mean = 0.105783 and RMS/sqrt(N) = 0.000433493
+read_hvector: Real Time =  35.52 seconds Cpu Time =  34.46 seconds
+
+<==== Flush Setting: @ -1000000====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_-1000000_50.root has been created
+
+Disk Mean = 0.0926106 and RMS/sqrt(N) = 0.000530787
+read_hvector: Real Time =  35.02 seconds Cpu Time =  34.01 seconds
+
+<==== Flush Setting: @ 10000====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_10000_50.root has been created
+
+Disk Mean = 0.0888398 and RMS/sqrt(N) = 0.000356927
+read_hvector: Real Time =  34.95 seconds Cpu Time =  33.97 seconds
+
+<==== Flush Setting: @ 100====>
+
+Info in <TTreePerfStats::SaveAs>: ROOT file stats_1000000_100_50.root has been created
+
+Disk Mean = 0.117701 and RMS/sqrt(N) = 0.00131797
+read_hvector: Real Time =  37.82 seconds Cpu Time =  36.83 seconds

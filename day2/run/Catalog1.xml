@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="B38917F7-A768-2949-8513-A515666195CE">
+    <physical>
+      <pfn filetype="ROOT_All" name="SimplePoolFile1.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="B0841ADA-1ACC-9A4B-9F71-FD46BCB11C71">
+    <physical>
+      <pfn filetype="ROOT_All" name="SimplePoolFile2.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="B28BA94A-22F9-C442-8509-66D635E7E8BA">
+    <physical>
+      <pfn filetype="ROOT_All" name="EmptyPoolFile.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="DDD0A1C4-DCE0-D447-B8EA-CF2A3275F5D9">
+    <physical>
+      <pfn filetype="ROOT_All" name="SimplePoolFile3.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="0921212A-5F80-2D43-BCDA-AEF4C3F8176A">
+    <physical>
+      <pfn filetype="ROOT_All" name="SimplePoolFile4.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="4E49F3E9-1408-964D-B674-49A7833EDE0C">
+    <physical>
+      <pfn filetype="ROOT_All" name="SimplePoolFile_xAOD.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

@@ -1,0 +1,183 @@
+Warning in <UnknownClass::SetDisplay>: DISPLAY not set, setting it to 24.148.33.103:0.0
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 4
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       120208251 bytes  File  Size =   45915462 *
+*        :          : Tree compression factor =   2.60                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5121462 bytes  File Size  =     170593 *
+*Baskets :     1273 : Basket Size=       4000 bytes  Compression=  29.82     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  115086408 bytes  File Size  =   45744869 *
+*Baskets :    29909 : Basket Size=       4000 bytes  Compression=   2.50     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs4: Real Time =   5.71 seconds Cpu Time =   5.41 seconds
+TOTAL     : Real Time =   5.71 seconds Cpu Time =   5.41 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 8
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       118531951 bytes  File  Size =   43124156 *
+*        :          : Tree compression factor =   2.74                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5060377 bytes  File Size  =      97660 *
+*Baskets :      630 : Basket Size=       8000 bytes  Compression=  51.58     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  113471193 bytes  File Size  =   43026496 *
+*Baskets :    14718 : Basket Size=       8000 bytes  Compression=   2.63     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs8: Real Time =   4.87 seconds Cpu Time =   4.81 seconds
+TOTAL     : Real Time =   4.87 seconds Cpu Time =   4.81 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 16
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117837515 bytes  File  Size =   41476148 *
+*        :          : Tree compression factor =   2.84                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5030262 bytes  File Size  =      61989 *
+*Baskets :      313 : Basket Size=      16000 bytes  Compression=  80.77     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112806872 bytes  File Size  =   41414159 *
+*Baskets :     7309 : Basket Size=      16000 bytes  Compression=   2.72     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs16: Real Time =   4.61 seconds Cpu Time =   4.56 seconds
+TOTAL     : Real Time =   4.61 seconds Cpu Time =   4.56 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 32
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117309731 bytes  File  Size =   40563736 *
+*        :          : Tree compression factor =   2.89                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5015347 bytes  File Size  =      44148 *
+*Baskets :      156 : Basket Size=      32000 bytes  Compression= 113.06     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112294003 bytes  File Size  =   40519588 *
+*Baskets :     3636 : Basket Size=      32000 bytes  Compression=   2.77     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs32: Real Time =   4.44 seconds Cpu Time =   4.39 seconds
+TOTAL     : Real Time =   4.44 seconds Cpu Time =   4.39 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 64
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117156776 bytes  File  Size =   39748648 *
+*        :          : Tree compression factor =   2.95                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5007937 bytes  File Size  =      35334 *
+*Baskets :       78 : Basket Size=      64000 bytes  Compression= 141.27     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112148458 bytes  File Size  =   39713314 *
+*Baskets :     1815 : Basket Size=      64000 bytes  Compression=   2.82     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs64: Real Time =   4.40 seconds Cpu Time =   4.35 seconds
+TOTAL     : Real Time =   4.40 seconds Cpu Time =   4.35 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 128
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117076970 bytes  File  Size =   39452615 *
+*        :          : Tree compression factor =   2.96                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5004232 bytes  File Size  =      30966 *
+*Baskets :       39 : Basket Size=     128000 bytes  Compression= 161.20     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112072357 bytes  File Size  =   39421649 *
+*Baskets :      906 : Basket Size=     128000 bytes  Compression=   2.84     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs128: Real Time =   4.44 seconds Cpu Time =   4.38 seconds
+TOTAL     : Real Time =   4.44 seconds Cpu Time =   4.38 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 256
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117090285 bytes  File  Size =   39344840 *
+*        :          : Tree compression factor =   2.97                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5002332 bytes  File Size  =      28050 *
+*Baskets :       19 : Basket Size=     256000 bytes  Compression= 173.40     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112087572 bytes  File Size  =   39316790 *
+*Baskets :      453 : Basket Size=     256000 bytes  Compression=   2.85     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs256: Real Time =   4.46 seconds Cpu Time =   4.41 seconds
+TOTAL     : Real Time =   4.46 seconds Cpu Time =   4.41 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 512
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117083892 bytes  File  Size =   39232511 *
+*        :          : Tree compression factor =   2.96                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5001382 bytes  File Size  =      25585 *
+*Baskets :        9 : Basket Size=     512000 bytes  Compression= 180.10     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112082129 bytes  File Size  =   39206926 *
+*Baskets :      226 : Basket Size=     512000 bytes  Compression=   2.85     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs512: Real Time =   4.47 seconds Cpu Time =   4.43 seconds
+TOTAL     : Real Time =   4.47 seconds Cpu Time =   4.43 seconds
+
+Flush = 0 and N = 1000000 and vec size = 50 and basket size = 1024
+
+******************************************************************************
+*Tree    :tvec      : Tree with vectors                                      *
+*Entries :  1000000 : Total =       117121940 bytes  File  Size =   39211993 *
+*        :          : Tree compression factor =   2.95                       *
+******************************************************************************
+*Br    0 :vecs      : vf/F:vb/O                                              *
+*Entries :  1000000 : Total  Size=    5001007 bytes  File Size  =      22287 *
+*Baskets :        4 : Basket Size=    1024000 bytes  Compression= 183.78     *
+*............................................................................*
+*Br    1 :vi        : vector<int>                                            *
+*Entries :  1000000 : Total  Size=  112120552 bytes  File Size  =   39189706 *
+*Baskets :      113 : Basket Size=    1024000 bytes  Compression=   2.85     *
+*............................................................................*
+
+
+wr_hvec_N1000000_F0_Sz50_Bs1024: Real Time =   4.47 seconds Cpu Time =   4.42 seconds
+TOTAL     : Real Time =   4.47 seconds Cpu Time =   4.42 seconds
+Info in <TCanvas::Print>: pdf file pdfs/graph_compression_variable.pdf has been created
+Info in <TCanvas::Print>: pdf file pdfs/graph_time_variable.pdf has been created
